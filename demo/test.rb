@@ -6,8 +6,8 @@
        
       while(low<=high)
 	
-	#puts "::::low:::#{low}:::high:::#{high}"
-	#puts ":::::mid::::#{mid}::::array[mid]::::#{array[mid]}::::"
+	puts "::::low:::#{low}:::high:::#{high}"
+	puts ":::::mid::::#{mid}::::array[mid]::::#{array[mid]}::::"
       
       if (array[mid]==keyValue)
 	  index="Element found at position: #{mid}"
